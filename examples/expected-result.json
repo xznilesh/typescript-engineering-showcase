@@ -1,0 +1,24 @@
+{
+  "accepted": [
+    {
+      "reference": "A-001",
+      "contact": "Example Contact",
+      "units": 3
+    },
+    {
+      "reference": "C-003",
+      "contact": "Third Example",
+      "units": 5
+    }
+  ],
+  "errors": [
+    {
+      "line": 3,
+      "reason": "Duplicate reference"
+    },
+    {
+      "line": 4,
+      "reason": "Units must be an integer from 0 to 100000"
+    }
+  ]
+}

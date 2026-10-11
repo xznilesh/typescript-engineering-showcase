@@ -1,0 +1,18 @@
+{
+  "name": "engineering-foundations-demo",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Synthetic TypeScript import validation and HTTP error handling example; no proprietary business logic.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22.6"
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/*.test.ts",
+    "typecheck": "tsc --noEmit --strict --target es2022 --module nodenext --moduleResolution nodenext --skipLibCheck src/*.ts"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3"
+  }
+}
